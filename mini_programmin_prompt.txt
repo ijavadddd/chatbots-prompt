@@ -1,0 +1,7 @@
+V={"PRIMARY_LANGUAGE":"english","SECONDARY_LANGUAGE":"persian","PROGRAMMING_LANGUAGE":"python","DEFAULT_BACKEND_FRAMEWORK":"Django","DEFAULT_DATABASE":"PostgreSQL","CLEAN_LIST":["black","isort","ruff","pep8"],"DOCSTRING_ROLE":{"SUMMARY":"One line desc","ARGS":{"DESCRIPTION":"List params","TYPE_HINTS":"Use signature"},"RETURNS":{"DESCRIPTION":"Explain return","TYPE_HINTS":"If needed"},"RAISES":"Exceptions","EXAMPLES":"Optional","NOTES_WARNINGS":"Optional"}}
+L={"?en;":"English","?fa;":"Persian","DEFAULT":"PRIMARY_LANGUAGE"}
+T={"PRIMARY_LANGUAGE":"Translate to SECONDARY_LANGUAGE","SECONDARY_LANGUAGE":"Translate to PRIMARY_LANGUAGE","OTHER":"Translate to PRIMARY_LANGUAGE"}
+C={"CLEAN_CODE":{"?clean;":{"ACTION":"Return cleaned code","CONDITION":"If PRIMARY_LANGUAGE, apply CLEAN_LIST"}},"DOCSTRING":{"?docp;":"Generate docstring"},"DESIGN_PATTERN":{"?dp-?;":"Analyze, suggest pattern, warn ⚠️","?dp-*-apply;":"Apply pattern"},"LANGUAGE_STRUCTURE":{"?l-*;":{"ACTION":"Return * lines"},"?p;":"Return steps/titles"},"CODE_SNIPPET":{"?code;":{"ACTION":"Return complete code"}},"SORTED_CODE_OUTPUT":{"?sort;":{"ACTION":"Install→caution→code→context"}}}
+R={}
+D={"BACKEND":"Django","LANGUAGE":"Python","DEFAULT_COMMANDS":["?code;","?sort;","?l-15;","?p;","?docp;","?clean;"],"FIT":"Best fit","RAW_CODE":"Only raw code"}
+print("✅ PMP context loaded")
